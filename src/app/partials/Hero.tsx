@@ -7,7 +7,7 @@ export default function Hero({ id }: { id: string }) {
         <div>
           <h1 className="text-3xl font-bold">
             Olá por aí, Eu sou{" "}
-            <span className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-br from-customBlue to-cyan-400 bg-clip-text text-transparent">
               Oldemar
             </span>{" "}
             👋
@@ -57,8 +57,8 @@ export default function Hero({ id }: { id: string }) {
           width={100}
           height={100}
           className="h-80 w-64"
-          src="assets/images/avatar.svg"
-          alt="Avatar image"
+          src="assets/images/undraw_multitasking_re_ffpb.svg"
+          alt="Multitasking image"
           loading="lazy"
         />
       </div>

@@ -3,7 +3,7 @@ export default function Contact({ id }: { id: string }) {
     <section className="mb-32 bg-opacity-40 bg-zinc-900 pt-5" id={id}>
       <div className="flex justify-center">
         <div className="text-center md:max-w-xl lg:max-w-3xl">
-          <h2 className="mb-12 px-6 text-3xl font-bold">Contact Me</h2>
+          <h2 className="mb-12 px-6 text-3xl font-bold">Me Contacte</h2>
         </div>
       </div>
 
@@ -32,13 +32,13 @@ export default function Contact({ id }: { id: string }) {
                     dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary 
                     [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleInput90"
-                placeholder="Name"
+                placeholder="Nome"
               />
               <label
                 className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
                 htmlFor="exampleInput90"
               >
-                Name
+                Nome
               </label>
             </div>
             <div className="relative mb-6" data-te-input-wrapper-init>
@@ -46,13 +46,13 @@ export default function Contact({ id }: { id: string }) {
                 type="email"
                 className="peer block min-h-[auto] w-full rounded border-0 bg-gray-900 bg-opacity-50 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleInput91"
-                placeholder="Email address"
+                placeholder="Endereço de e-mail"
               />
               <label
                 className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
                 htmlFor="exampleInput91"
               >
-                Email address
+                Endereço de e-mail
               </label>
             </div>
             <div className="relative mb-6" data-te-input-wrapper-init>
@@ -60,13 +60,13 @@ export default function Contact({ id }: { id: string }) {
                 className="peer block min-h-[auto] w-full rounded border-0 bg-gray-900 bg-opacity-50 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleFormControlTextarea1"
                 rows={3}
-                placeholder="Your message"
+                placeholder="Sua mensagem..."
               ></textarea>
               <label
                 htmlFor="exampleFormControlTextarea1"
                 className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
               >
-                Message
+                Mensagem
               </label>
             </div>
             <div className="mb-6 inline-block min-h-[1.5rem] justify-center pl-[1.5rem] md:flex">
@@ -81,7 +81,7 @@ export default function Contact({ id }: { id: string }) {
                 className="inline-block pl-[0.15rem] hover:cursor-pointer"
                 htmlFor="exampleCheck96"
               >
-                Send me a copy of this message
+                Me envie uma cópia desta mensagem.
               </label>
             </div>
             <button
@@ -90,7 +90,7 @@ export default function Contact({ id }: { id: string }) {
               data-te-ripple-color="light"
               className="mb-6 inline-block w-full rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
             >
-              Send
+              Enviar
             </button>
           </form>
         </div>
@@ -118,7 +118,7 @@ export default function Contact({ id }: { id: string }) {
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold dark:text-white">
-                    Contact Information
+                    Informação de contacto
                   </p>
                   <p className="text-neutral-500 dark:text-neutral-200">
                     oldemego+portfolio@gmail.com

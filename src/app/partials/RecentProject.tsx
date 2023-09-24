@@ -85,9 +85,9 @@ export default async function RecentProject({ id }: { id: string }) {
   return (
     <div className="mx-auto max-w-screen-lg px-3 py-6" id={id}>
       <div className="mb-6 text-2xl font-bold">
-        Recent{" "}
-        <span className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">
-          Projects
+        Projetos{" "}
+        <span className="bg-gradient-to-br from-customBlue to-cyan-400 bg-clip-text text-transparent">
+          Recentes
         </span>
       </div>
       <div className="flex flex-col gap-6">{projects_in_element}</div>
