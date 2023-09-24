@@ -31,7 +31,7 @@ export default function Navbar() {
               <a href="#projects">Projects</a>
             </li>
             <li className="hover:text-white">
-              <a href="#contact">Contact</a>
+              <a href="#contact-me">Contact</a>
             </li>
           </ul>
         </nav>

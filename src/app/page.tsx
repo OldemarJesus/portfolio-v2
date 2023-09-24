@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero id="about-me" /> 
       <RecentProject id="projects" />
-      <Contact />
+      <Contact id="contact-me" />
     </div>
   )
 }

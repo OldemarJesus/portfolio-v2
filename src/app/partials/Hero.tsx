@@ -16,31 +16,21 @@ export default function Hero({ id }: { id: string }) {
             Um jovem programador{" "}
             <a
               className="text-cyan-400 hover:underline"
-              href="/demo/astro-boilerplate"
+              href="#"
             >
               intermediário
             </a>{" "}
             que tem anceio que aprender sempre mais e evoluir junto das{" "}
             <a
               className="text-cyan-400 hover:underline"
-              href="/demo/astro-boilerplate"
+              href="#"
             >
               principais tecnologias
             </a>{" "}
             assentas no desenvolvimento WEB (FrontEnd) e API (BackEnd)
           </p>
           <div className="mt-3 flex gap-1">
-            <a href="/demo/astro-boilerplate">
-              <Image
-                width={100}
-                height={100}
-                className="h-12 w-12 hover:translate-y-1"
-                src="/assets/images/twitter-icon.png"
-                alt="Twitter icon"
-                loading="lazy"
-              />
-            </a>
-            <a href="/demo/astro-boilerplate">
+            <a href="https://www.facebook.com/oldemar.jesus/">
               <Image
                 width={100}
                 height={100}
@@ -50,7 +40,7 @@ export default function Hero({ id }: { id: string }) {
                 loading="lazy"
               />
             </a>
-            <a href="/demo/astro-boilerplate">
+            <a href="https://www.linkedin.com/in/oldemar-jesus-892250206">
               <Image
                 width={100}
                 height={100}
